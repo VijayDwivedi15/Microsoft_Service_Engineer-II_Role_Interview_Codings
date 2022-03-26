@@ -27,6 +27,9 @@ namespace Microsoft_Service_Engineer_II_Interview_Coding_Practice
             var thirddMin = val.OrderBy(z => z).Skip(2).First();  // Getting Third Min value
             Console.WriteLine("Third Smallest Number: " + thirddMin);
 
+            var thirddMax = val.OrderByDescending(z => z).Skip(2).First();  // Getting Third Max value
+            Console.WriteLine("Third Largest Number: " + thirddMax);
+
             Console.ReadLine();
 
         }
