@@ -24,16 +24,16 @@ namespace Microsoft_Service_Engineer_II_Interview_Coding_Practice
             return value;
         }
 
-        public static void Main()
-        {
-            Console.WriteLine("Enter First Number :");
-            int num1 = int.Parse(Console.ReadLine());
+        //public static void Main()
+        //{
+        //    Console.WriteLine("Enter First Number :");
+        //    int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter Second Number :");
-            int num2 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Enter Second Number :");
+        //    int num2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Sum of multi number is {0}", MulWithOutStarOperator(num1, num2));
-            Console.ReadLine();
-        }
+        //    Console.WriteLine("Sum of multi number is {0}", MulWithOutStarOperator(num1, num2));
+        //    Console.ReadLine();
+        //}
     }
 }
